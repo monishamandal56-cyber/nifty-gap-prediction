@@ -142,18 +142,22 @@ def build_features_and_targets(raw_data: dict,
         (nikkei_df,  False),
         (vix_df,     False),
     ]
-
     for df, allow_exact in merges:
         if df is None or df.empty or len(df.columns) == 0:
             continue
         clean = _reset_index_date(df.dropna()).sort_values('Date')
+        
+        # FIX: Force both date columns to the exact same nanosecond resolution
+        base['Date'] = pd.to_datetime(base['Date']).astype('datetime64[ns]')
+        clean['Date'] = pd.to_datetime(clean['Date']).astype('datetime64[ns]')
+        
         base = pd.merge_asof(
             base, clean,
             on='Date',
             direction='backward',
             allow_exact_matches=allow_exact,
         )
-
+    
     # ---- Drop incomplete rows ---------------------------------------------
     # Features must always be complete. Targets are only required for
     # training rows; when keep_last=True we let the final row survive even
