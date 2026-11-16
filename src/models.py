@@ -45,7 +45,7 @@ class GapPredictionEnsemble:
         self.clf = RandomForestClassifier(n_estimators=100, max_depth=4, random_state=42)
 
         if weights is None:
-            weights = {'huber': 0.35, 'ridge': 0.25, 'hgb': 0.20, 'rf': 0.20}
+            weights = {'huber': 0.25, 'ridge': 0.25, 'hgb': 0.25, 'rf': 0.25}
         self.weights = weights
 
         self.residual_std       = 0.50
