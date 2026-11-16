@@ -1,0 +1,14 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# System
+.DS_Store
+Thumbs.db
+
+# App Cache
+.cache/
+logs/*.log
