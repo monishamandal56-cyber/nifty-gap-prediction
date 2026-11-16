@@ -148,6 +148,9 @@ def fmt_markdown(res):
         "",
         "*Check at 8:30 AM IST before 9:15 market open.*",
         "*Not financial advice. Trade at your own risk.*",
+        "",
+        "---",
+        "*© 2026 Monisha Mandal. All rights reserved.*"
     ]
     return "\n".join(lines)
 
