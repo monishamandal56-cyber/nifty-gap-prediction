@@ -279,10 +279,14 @@ def train_and_save_model(dataset: pd.DataFrame,
           f"CI80_emp_cov={metrics['ci80_empirical_coverage_pct']}%")
     return full, metrics
 
-
-def load_trained_model(model_path: str = None):
-    if model_path is None:
-        model_path = os.path.join(MODEL_DIR, "nifty_gap_ensemble.joblib")
-    if not os.path.exists(model_path):
-        return None
-    return joblib.load(model_path)
+    def load_trained_model(model_path: str = None):
+        if model_path is None:
+            model_path = os.path.join(MODEL_DIR, "nifty_gap_ensemble.joblib")
+        if not os.path.exists(model_path):
+            return None
+        try:
+            return joblib.load(model_path)
+        except Exception as e:
+            print(f"Warning: Model version mismatch or corrupted file ({e}).")
+            print("Retraining from scratch...")
+            return None
