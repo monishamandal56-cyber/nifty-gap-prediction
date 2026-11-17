@@ -1,204 +1,204 @@
 {
-  "gap_pct": 0.19,
-  "gap_points": 47.5,
-  "last_close": 25247.7,
-  "predicted_open": 25295.2,
-  "expected_low": 25187.4,
-  "expected_high": 25380.5,
+  "gap_pct": -0.15,
+  "gap_points": -37.3,
+  "last_close": 25387.4,
+  "predicted_open": 25350.1,
+  "expected_low": 25242.2,
+  "expected_high": 25439.8,
   "direction": "GAP UP",
-  "prob_up": 52.1,
-  "prob_flat": 27.6,
-  "prob_down": 20.3,
+  "prob_up": 38.3,
+  "prob_flat": 28.3,
+  "prob_down": 33.4,
   "drivers": [
     [
-      "inda_intraday",
+      "dow_ret",
       {
-        "value": 0.61,
-        "contribution_pct": 0.181
+        "value": -1.41,
+        "contribution_pct": -0.214
       }
     ],
     [
       "vix_level",
       {
-        "value": 15.7,
-        "contribution_pct": 0.063
+        "value": 15.52,
+        "contribution_pct": 0.061
+      }
+    ],
+    [
+      "nasdaq_ret",
+      {
+        "value": -2.49,
+        "contribution_pct": -0.046
       }
     ],
     [
       "inda_ret",
       {
-        "value": -0.19,
-        "contribution_pct": -0.028
+        "value": 0.21,
+        "contribution_pct": 0.031
       }
     ],
     [
-      "nikkei_ret",
+      "inda_intraday",
       {
-        "value": -2.42,
-        "contribution_pct": -0.023
+        "value": 0.1,
+        "contribution_pct": 0.029
       }
     ],
     [
-      "nifty_prev_gap",
+      "usdinr_ret",
       {
-        "value": 0.25,
-        "contribution_pct": -0.019
-      }
-    ],
-    [
-      "nifty_prev_upper_wick",
-      {
-        "value": 0.36,
-        "contribution_pct": -0.017
+        "value": -0.83,
+        "contribution_pct": 0.026
       }
     ]
   ],
-  "confidence_band_pct": 0.38,
+  "confidence_band_pct": 0.39,
   "vol_scale": 1.0,
-  "lo_pct": -0.427,
-  "hi_pct": 0.338,
-  "date_of_last_close": "2026-11-16",
+  "lo_pct": -0.425,
+  "hi_pct": 0.353,
+  "date_of_last_close": "2026-11-17",
   "validation_metrics": {
     "test_samples": 729,
-    "directional_accuracy_pct": 73.8,
-    "mae_pct": 0.285,
-    "rmse_pct": 0.487,
-    "mae_points": 68.0,
-    "r2": 0.285,
-    "residual_std_oof": 0.4855,
-    "residual_p10": -0.4268,
-    "residual_p90": 0.3379,
+    "directional_accuracy_pct": 73.4,
+    "mae_pct": 0.284,
+    "rmse_pct": 0.488,
+    "mae_points": 67.8,
+    "r2": 0.283,
+    "residual_std_oof": 0.4864,
+    "residual_p10": -0.4253,
+    "residual_p90": 0.3533,
     "ci80_empirical_coverage_pct": 79.97
   },
   "drivers_formatted": [
     {
-      "code": "inda_intraday",
-      "name": "INDA Intraday Trend",
-      "current_value": 0.61,
-      "impact_pct": 0.181
+      "code": "dow_ret",
+      "name": "Dow Jones Return",
+      "current_value": -1.41,
+      "impact_pct": -0.214
     },
     {
       "code": "vix_level",
       "name": "India VIX Level",
-      "current_value": 15.7,
-      "impact_pct": 0.063
+      "current_value": 15.52,
+      "impact_pct": 0.061
+    },
+    {
+      "code": "nasdaq_ret",
+      "name": "Nasdaq Return",
+      "current_value": -2.49,
+      "impact_pct": -0.046
     },
     {
       "code": "inda_ret",
       "name": "US-Traded India ETF (INDA)",
-      "current_value": -0.19,
-      "impact_pct": -0.028
+      "current_value": 0.21,
+      "impact_pct": 0.031
     },
     {
-      "code": "nikkei_ret",
-      "name": "Nikkei 225 Morning Trend",
-      "current_value": -2.42,
-      "impact_pct": -0.023
+      "code": "inda_intraday",
+      "name": "INDA Intraday Trend",
+      "current_value": 0.1,
+      "impact_pct": 0.029
     },
     {
-      "code": "nifty_prev_gap",
-      "name": "Prior Day Opening Gap",
-      "current_value": 0.25,
-      "impact_pct": -0.019
-    },
-    {
-      "code": "nifty_prev_upper_wick",
-      "name": "Upper Wick (Selling Rejection)",
-      "current_value": 0.36,
-      "impact_pct": -0.017
+      "code": "usdinr_ret",
+      "name": "USD/INR Currency Move",
+      "current_value": -0.83,
+      "impact_pct": 0.026
     }
   ],
   "scenario_matrix": [
     {
       "sp500_scenario_pct": -2.0,
-      "predicted_gap_pct": 0.03,
-      "predicted_gap_points": 7.3,
-      "predicted_open": 25255.0,
-      "direction": "GAP UP",
-      "prob_up": 44.7,
-      "prob_flat": 21.6,
-      "prob_down": 33.7
+      "predicted_gap_pct": -0.38,
+      "predicted_gap_points": -95.7,
+      "predicted_open": 25291.7,
+      "direction": "GAP DOWN",
+      "prob_up": 27.6,
+      "prob_flat": 22.6,
+      "prob_down": 49.8
     },
     {
       "sp500_scenario_pct": -1.5,
-      "predicted_gap_pct": 0.07,
-      "predicted_gap_points": 17.3,
-      "predicted_open": 25265.0,
-      "direction": "GAP UP",
-      "prob_up": 45.3,
-      "prob_flat": 21.8,
-      "prob_down": 32.9
+      "predicted_gap_pct": -0.34,
+      "predicted_gap_points": -87.0,
+      "predicted_open": 25300.4,
+      "direction": "GAP DOWN",
+      "prob_up": 28.0,
+      "prob_flat": 23.6,
+      "prob_down": 48.4
     },
     {
       "sp500_scenario_pct": -1.0,
-      "predicted_gap_pct": 0.12,
-      "predicted_gap_points": 29.9,
-      "predicted_open": 25277.6,
-      "direction": "GAP UP",
-      "prob_up": 48.0,
-      "prob_flat": 23.6,
-      "prob_down": 28.4
+      "predicted_gap_pct": -0.25,
+      "predicted_gap_points": -63.2,
+      "predicted_open": 25324.2,
+      "direction": "GAP DOWN",
+      "prob_up": 30.9,
+      "prob_flat": 25.2,
+      "prob_down": 43.8
     },
     {
       "sp500_scenario_pct": -0.5,
-      "predicted_gap_pct": 0.18,
-      "predicted_gap_points": 45.2,
-      "predicted_open": 25292.9,
+      "predicted_gap_pct": -0.13,
+      "predicted_gap_points": -32.8,
+      "predicted_open": 25354.6,
       "direction": "GAP UP",
-      "prob_up": 51.5,
-      "prob_flat": 26.3,
-      "prob_down": 22.2
+      "prob_up": 36.0,
+      "prob_flat": 32.3,
+      "prob_down": 31.8
     },
     {
       "sp500_scenario_pct": 0.0,
-      "predicted_gap_pct": 0.22,
-      "predicted_gap_points": 55.9,
-      "predicted_open": 25303.6,
+      "predicted_gap_pct": -0.09,
+      "predicted_gap_points": -22.6,
+      "predicted_open": 25364.8,
       "direction": "GAP UP",
-      "prob_up": 52.5,
-      "prob_flat": 27.6,
-      "prob_down": 20.0
+      "prob_up": 39.2,
+      "prob_flat": 34.7,
+      "prob_down": 26.2
     },
     {
       "sp500_scenario_pct": 0.5,
-      "predicted_gap_pct": 0.28,
-      "predicted_gap_points": 69.8,
-      "predicted_open": 25317.5,
+      "predicted_gap_pct": -0.05,
+      "predicted_gap_points": -12.7,
+      "predicted_open": 25374.7,
       "direction": "GAP UP",
-      "prob_up": 65.5,
-      "prob_flat": 20.9,
-      "prob_down": 13.7
+      "prob_up": 51.7,
+      "prob_flat": 28.5,
+      "prob_down": 19.8
     },
     {
       "sp500_scenario_pct": 1.0,
-      "predicted_gap_pct": 0.37,
-      "predicted_gap_points": 92.4,
-      "predicted_open": 25340.1,
+      "predicted_gap_pct": 0.01,
+      "predicted_gap_points": 2.1,
+      "predicted_open": 25389.5,
       "direction": "GAP UP",
-      "prob_up": 83.2,
-      "prob_flat": 9.0,
-      "prob_down": 7.8
+      "prob_up": 63.4,
+      "prob_flat": 21.5,
+      "prob_down": 15.1
     },
     {
       "sp500_scenario_pct": 1.5,
-      "predicted_gap_pct": 0.41,
-      "predicted_gap_points": 103.3,
-      "predicted_open": 25351.0,
+      "predicted_gap_pct": 0.04,
+      "predicted_gap_points": 10.8,
+      "predicted_open": 25398.2,
       "direction": "GAP UP",
-      "prob_up": 83.1,
-      "prob_flat": 8.7,
-      "prob_down": 8.2
+      "prob_up": 63.9,
+      "prob_flat": 21.1,
+      "prob_down": 14.9
     },
     {
       "sp500_scenario_pct": 2.0,
-      "predicted_gap_pct": 0.45,
-      "predicted_gap_points": 114.5,
-      "predicted_open": 25362.2,
+      "predicted_gap_pct": 0.08,
+      "predicted_gap_points": 19.1,
+      "predicted_open": 25406.5,
       "direction": "GAP UP",
-      "prob_up": 83.1,
-      "prob_flat": 8.7,
-      "prob_down": 8.2
+      "prob_up": 64.6,
+      "prob_flat": 20.9,
+      "prob_down": 14.5
     }
   ],
-  "generated_at": "2026-11-16T08:14:34.920702"
+  "generated_at": "2026-11-17T11:38:59.312143"
 }
