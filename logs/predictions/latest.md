@@ -1,38 +1,38 @@
 # 🔴 Nifty Gap Prediction
 
-**Generated:** 2026-11-19 11:24 IST
+**Generated:** 2026-11-20 11:13 IST
 
 ---
 
-## -0.08% (-21.2 pts)
+## -0.11% (-29.4 pts)
 ### GAP DOWN
 
 | Metric | Value |
 |---|---|
-| **Predicted open** | 25493.10 |
-| **80% band** | 25386 - 25583 |
-| **Last close** | 25514.30 (2026-11-19) |
+| **Predicted open** | 25771.20 |
+| **80% band** | 25661 - 25860 |
+| **Last close** | 25800.60 (2026-11-20) |
 
 ### Probabilities
 
 | Up | Flat | Down |
 |---|---|---|
-| 37.8% | 23.8% | 38.4% |
+| 35.3% | 21.4% | 43.3% |
 
 ### Strangle Setup
 
 ```
-Sell Put  at 25336
-Sell Call at 25663
+Sell Put  at 25611
+Sell Call at 25940
 ```
 
 ### Top Drivers
 
-- **Dow Jones Return**: 🔴 -0.169%
-- **US-Traded India ETF (INDA)**: 🔴 -0.123%
-- **India VIX Level**: 🟢 +0.062%
-- **INDA Intraday Trend**: 🟢 +0.046%
-- **Day of Week Seasonality**: 🟢 +0.041%
+- **Dow Jones Return**: 🔴 -0.339%
+- **US-Traded India ETF (INDA)**: 🟢 +0.154%
+- **India VIX Daily Shift**: 🟢 +0.078%
+- **India VIX Level**: 🟢 +0.067%
+- **Nasdaq Return**: 🔴 -0.054%
 
 ### Historical Validation
 
