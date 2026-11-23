@@ -1,0 +1,27 @@
+=======================================================
+NIFTY 50 GAP PREDICTION
+Generated: 2026-11-23 12:06:46
+=======================================================
+Last close    : 25349.70  (2026-11-23)
+Predicted gap : -0.05%  (-12.9 pts)
+Predicted open: 25336.80
+80% band      : 25228.70  to  25424.50
+Direction     : GAP DOWN
+Probabilities : Up 35.4%  |  Flat 21.6%  |  Down 43.0%
+
+STRANGLE SETUP (if inside band at 9:20 AM):
+  Sell Put  at 25179
+  Sell Call at 25504
+
+Top drivers:
+  Dow Jones Return                 -0.309%
+  US-Traded India ETF (INDA)       +0.249%
+  Nasdaq Return                    -0.132%
+  India VIX Level                  +0.071%
+  Nikkei 225 Morning Trend         -0.039%
+
+Historical validation:
+  OOF MAE      : 0.283%
+  OOF DirAcc   : 73.5%
+  CI80 coverage: 79.97%
+=======================================================
