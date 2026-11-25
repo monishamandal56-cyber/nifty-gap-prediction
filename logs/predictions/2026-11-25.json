@@ -1,0 +1,204 @@
+{
+  "gap_pct": 0.67,
+  "gap_points": 173.0,
+  "last_close": 25819.2,
+  "predicted_open": 25992.2,
+  "expected_low": 25881.4,
+  "expected_high": 26083.0,
+  "direction": "GAP UP",
+  "prob_up": 66.3,
+  "prob_flat": 15.7,
+  "prob_down": 17.9,
+  "drivers": [
+    [
+      "inda_intraday",
+      {
+        "value": 1.36,
+        "contribution_pct": 0.406
+      }
+    ],
+    [
+      "inda_ret",
+      {
+        "value": 1.15,
+        "contribution_pct": 0.17
+      }
+    ],
+    [
+      "dow_ret",
+      {
+        "value": 0.85,
+        "contribution_pct": 0.138
+      }
+    ],
+    [
+      "nifty_prev_gap",
+      {
+        "value": 1.22,
+        "contribution_pct": -0.095
+      }
+    ],
+    [
+      "vix_level",
+      {
+        "value": 17.7,
+        "contribution_pct": 0.071
+      }
+    ],
+    [
+      "nasdaq_ret",
+      {
+        "value": -1.48,
+        "contribution_pct": -0.037
+      }
+    ]
+  ],
+  "confidence_band_pct": 0.39,
+  "vol_scale": 1.0,
+  "lo_pct": -0.429,
+  "hi_pct": 0.351,
+  "date_of_last_close": "2026-11-25",
+  "validation_metrics": {
+    "test_samples": 729,
+    "directional_accuracy_pct": 73.8,
+    "mae_pct": 0.284,
+    "rmse_pct": 0.487,
+    "mae_points": 67.8,
+    "r2": 0.283,
+    "residual_std_oof": 0.4852,
+    "residual_p10": -0.4295,
+    "residual_p90": 0.3515,
+    "ci80_empirical_coverage_pct": 79.97
+  },
+  "drivers_formatted": [
+    {
+      "code": "inda_intraday",
+      "name": "INDA Intraday Trend",
+      "current_value": 1.36,
+      "impact_pct": 0.406
+    },
+    {
+      "code": "inda_ret",
+      "name": "US-Traded India ETF (INDA)",
+      "current_value": 1.15,
+      "impact_pct": 0.17
+    },
+    {
+      "code": "dow_ret",
+      "name": "Dow Jones Return",
+      "current_value": 0.85,
+      "impact_pct": 0.138
+    },
+    {
+      "code": "nifty_prev_gap",
+      "name": "Prior Day Opening Gap",
+      "current_value": 1.22,
+      "impact_pct": -0.095
+    },
+    {
+      "code": "vix_level",
+      "name": "India VIX Level",
+      "current_value": 17.7,
+      "impact_pct": 0.071
+    },
+    {
+      "code": "nasdaq_ret",
+      "name": "Nasdaq Return",
+      "current_value": -1.48,
+      "impact_pct": -0.037
+    }
+  ],
+  "scenario_matrix": [
+    {
+      "sp500_scenario_pct": -2.0,
+      "predicted_gap_pct": 0.36,
+      "predicted_gap_points": 92.2,
+      "predicted_open": 25911.5,
+      "direction": "GAP UP",
+      "prob_up": 52.1,
+      "prob_flat": 19.4,
+      "prob_down": 28.4
+    },
+    {
+      "sp500_scenario_pct": -1.5,
+      "predicted_gap_pct": 0.4,
+      "predicted_gap_points": 102.8,
+      "predicted_open": 25922.0,
+      "direction": "GAP UP",
+      "prob_up": 51.0,
+      "prob_flat": 19.7,
+      "prob_down": 29.3
+    },
+    {
+      "sp500_scenario_pct": -1.0,
+      "predicted_gap_pct": 0.44,
+      "predicted_gap_points": 113.3,
+      "predicted_open": 25932.5,
+      "direction": "GAP UP",
+      "prob_up": 53.7,
+      "prob_flat": 19.3,
+      "prob_down": 27.0
+    },
+    {
+      "sp500_scenario_pct": -0.5,
+      "predicted_gap_pct": 0.52,
+      "predicted_gap_points": 133.6,
+      "predicted_open": 25952.8,
+      "direction": "GAP UP",
+      "prob_up": 58.8,
+      "prob_flat": 19.6,
+      "prob_down": 21.6
+    },
+    {
+      "sp500_scenario_pct": 0.0,
+      "predicted_gap_pct": 0.55,
+      "predicted_gap_points": 141.5,
+      "predicted_open": 25960.8,
+      "direction": "GAP UP",
+      "prob_up": 58.9,
+      "prob_flat": 19.3,
+      "prob_down": 21.9
+    },
+    {
+      "sp500_scenario_pct": 0.5,
+      "predicted_gap_pct": 0.59,
+      "predicted_gap_points": 151.4,
+      "predicted_open": 25970.7,
+      "direction": "GAP UP",
+      "prob_up": 69.7,
+      "prob_flat": 13.4,
+      "prob_down": 16.9
+    },
+    {
+      "sp500_scenario_pct": 1.0,
+      "predicted_gap_pct": 0.68,
+      "predicted_gap_points": 175.4,
+      "predicted_open": 25994.7,
+      "direction": "GAP UP",
+      "prob_up": 80.5,
+      "prob_flat": 4.4,
+      "prob_down": 15.0
+    },
+    {
+      "sp500_scenario_pct": 1.5,
+      "predicted_gap_pct": 0.72,
+      "predicted_gap_points": 186.6,
+      "predicted_open": 26005.8,
+      "direction": "GAP UP",
+      "prob_up": 80.6,
+      "prob_flat": 4.3,
+      "prob_down": 15.1
+    },
+    {
+      "sp500_scenario_pct": 2.0,
+      "predicted_gap_pct": 0.77,
+      "predicted_gap_points": 198.1,
+      "predicted_open": 26017.3,
+      "direction": "GAP UP",
+      "prob_up": 80.8,
+      "prob_flat": 4.2,
+      "prob_down": 15.0
+    }
+  ],
+  "generated_at": "2026-11-25T12:28:32.156842"
+}
