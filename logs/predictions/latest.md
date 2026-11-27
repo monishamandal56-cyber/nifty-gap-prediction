@@ -1,43 +1,43 @@
 # 🟢 Nifty Gap Prediction
 
-**Generated:** 2026-11-26 12:09 IST
+**Generated:** 2026-11-27 11:57 IST
 
 ---
 
-## +0.43% (+110.5 pts)
+## +0.39% (+98.7 pts)
 ### GAP UP
 
 | Metric | Value |
 |---|---|
-| **Predicted open** | 25995.00 |
-| **80% band** | 25885 - 26086 |
-| **Last close** | 25884.50 (2026-11-26) |
+| **Predicted open** | 25705.90 |
+| **80% band** | 25595 - 25796 |
+| **Last close** | 25607.20 (2026-11-27) |
 
 ### Probabilities
 
 | Up | Flat | Down |
 |---|---|---|
-| 63.4% | 21.0% | 15.6% |
+| 60.9% | 21.1% | 18.0% |
 
 ### Strangle Setup
 
 ```
-Sell Put  at 25835
-Sell Call at 26166
+Sell Put  at 25545
+Sell Call at 25876
 ```
 
 ### Top Drivers
 
-- **INDA Intraday Trend**: 🟢 +0.304%
-- **US-Traded India ETF (INDA)**: 🟢 +0.129%
-- **India VIX Level**: 🟢 +0.067%
-- **Lower Wick (Dip Buying Support)**: 🟢 +0.060%
-- **Dow Jones Return**: 🟢 +0.053%
+- **INDA Intraday Trend**: 🟢 +0.300%
+- **US-Traded India ETF (INDA)**: 🟢 +0.130%
+- **India VIX Level**: 🟢 +0.063%
+- **Dow Jones Return**: 🟢 +0.052%
+- **USD/INR Currency Move**: 🔴 -0.023%
 
 ### Historical Validation
 
-- OOF MAE: **0.284%**
-- OOF DirAcc: **74.2%**
+- OOF MAE: **0.285%**
+- OOF DirAcc: **73.8%**
 - CI80 coverage: 79.97%
 
 ---
